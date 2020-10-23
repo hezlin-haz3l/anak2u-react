@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Navigator from './homeStack'
 
-export default function App() {
+export default function Kategori({navigation}) {
   return (
-    <Navigator />
+    <View style={styles.container}>
+      <Text>Detail Page</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
